@@ -25,7 +25,7 @@ body {
   font-family: "Raleway", sans-serif;
 }
 .bgimg {
-  background-image: url("/wood.jpg");
+  background-image: url("https://images.unsplash.com/photo-1460602594182-8568137446ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1955&q=80");
   background-size: cover;
   background-position: center;
 }
