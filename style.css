@@ -36,3 +36,15 @@ body {
   border-radius: 6px;
   box-shadow: 2px 2px 2px black, 8px 8px 8px rgba(0, 0, 0, 0.507);
 }
+
+@media screen and (max-width: 992px) {
+  .push-down {
+    bottom: 0%;
+  }
+  h1 {
+    font-size: x-large;
+  }
+  h1.text-right {
+    text-align: left !important;
+  }
+}
