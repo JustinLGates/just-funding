@@ -1,0 +1,26 @@
+:root {
+  --p: rgb(56, 56, 248);
+}
+
+.big {
+  min-width: 30px;
+  min-height: 30px;
+}
+.c-border-left {
+  border-left: 10px solid var(--p);
+}
+.push-down {
+  position: relative;
+  top: 10vh;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "M PLUS 1p", sans-serif;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
