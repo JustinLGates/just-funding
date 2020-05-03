@@ -1,17 +1,19 @@
 :root {
   --p: rgba(66, 139, 202, 0.5);
+  --primary: rgba(66, 139, 202);
 }
 
 .big {
-  min-width: 30px;
-  min-height: 30px;
+  font-size: 42pt;
+  color: var(--primary);
 }
 .c-border-left {
   border-left: 10px solid var(--p);
 }
 .push-down {
-  position: relative;
-  bottom: -30%;
+  min-width: 85%;
+  position: absolute;
+  bottom: -100px;
 }
 h1,
 h2,
@@ -39,12 +41,55 @@ body {
 
 @media screen and (max-width: 992px) {
   .push-down {
-    bottom: 0%;
+    min-width: 85%;
+    position: relative;
+    bottom: -10px;
   }
   h1 {
-    font-size: x-large;
+    font-size: xx-large;
+  }
+  .big {
+    font-size: 36pt;
   }
   h1.text-right {
     text-align: left !important;
   }
+  .mt-120px {
+    margin: 5px;
+    padding: 5px;
+  }
+}
+
+.mt-120px {
+  margin-top: 120px;
+}
+
+@keyframes slide-right-anim {
+  0% {
+    position: relative;
+    left: 100vw;
+  }
+  100% {
+    left: 0vw;
+  }
+}
+.p-relative {
+  position: absolute;
+  bottom: -18px;
+  left: 18%;
+  min-width: 60%;
+}
+:hover.hover-grow {
+  transition: 0.5;
+  padding: 10px;
+  min-width: 62%;
+  left: 17%;
+
+  bottom: -22px;
+}
+
+.slideRight {
+  animation-name: slide-right-anim;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
 }
