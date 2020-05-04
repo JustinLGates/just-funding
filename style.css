@@ -55,8 +55,8 @@ body {
     text-align: left !important;
   }
   .mt-120px {
-    margin: 5px;
-    padding: 5px;
+    margin: 5px !important;
+    padding: 5px !important;
   }
 }
 
